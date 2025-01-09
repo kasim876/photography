@@ -160,3 +160,134 @@ img {
     color: #000;
     background-color: var(--main);
 }
+
+.hero {
+    padding-bottom: 40px;
+    background-image: url('../img/bg.png');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    .container {
+        display: flex;
+        height: 100%;
+        min-height: calc(100vh - 140px);
+    }
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero__skill {
+    max-width: 200px;
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 125%;
+    color: var(--second);
+}
+
+.hero__slogan {
+    position: relative;
+    max-width: 380px;
+    margin-top: 30vh;
+    padding-left: 30px;
+    font-family: var(--second-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 160%;
+    color: var(--main);
+}
+
+.hero__slogan::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 18px;
+    width: 20px;
+    height: 3px;
+    background-color: var(--second);
+}
+
+.hero__content {
+    max-width: 550px;
+    padding-top: 150px;
+    margin-left: auto;
+}
+
+.hero__welcome {
+    font-family: var(--third-family);
+    font-size: 18px;
+    color: var(--main);
+
+    span {
+        font-family: var(--second-family);
+        font-weight: 800;
+        font-size: 100px;
+        color: var(--second);
+    }
+}
+
+.hero__descr {
+    font-family: var(--third-family);
+    font-size: 16px;
+    line-height: 180%;
+    color: rgba(255, 255, 255, 0.6)
+}
+
+.hero__slider {
+    margin-top: 30px;
+}
+
+.slider__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.slider__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--light-text)
+}
+
+.slider__more {
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--second);
+}
+
+.slider__list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.slider__link {
+    flex-shrink: 0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.slider__nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.slider__btn {
+    width: 28px;
+    height: 28px;
+
+    svg {
+        fill: var(--light-text);
+    }
+}
