@@ -62,7 +62,7 @@ img {
 .page__body {
     margin: 0;
     min-width: 360px;
-    font-family: var(--font-family);
+    font-family: var(--font-josefin);
     background-color: var(--bg);
   }
   
@@ -71,10 +71,10 @@ img {
     --main: #eee;
     --second: #00adb5;
     --light-text: #fff;
-  
-    --font-family: "Josefin Sans", sans-serif;
-    --second-family: "Montserrat", sans-serif;
-    --third-family: "Poppins", sans-serif;
+
+    --font-josefin: "Josefin Sans", sans-serif;
+    --font-montserrat: "Montserrat", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
 }
   
 .stop-scroll {
@@ -184,7 +184,7 @@ img {
 
 .hero__skill {
     max-width: 200px;
-    font-family: var(--second-family);
+    font-family: var(--font-montserrat);
     font-weight: 800;
     font-size: 24px;
     line-height: 125%;
@@ -196,7 +196,7 @@ img {
     max-width: 380px;
     margin-top: 30vh;
     padding-left: 30px;
-    font-family: var(--second-family);
+    font-family: var(--font-montserrat);
     font-weight: 800;
     font-size: 24px;
     line-height: 160%;
@@ -220,12 +220,12 @@ img {
 }
 
 .hero__welcome {
-    font-family: var(--third-family);
+    font-family: var(--font-poppins);
     font-size: 18px;
     color: var(--main);
 
     span {
-        font-family: var(--second-family);
+        font-family: var(--font-montserrat);
         font-weight: 800;
         font-size: 100px;
         color: var(--second);
@@ -233,7 +233,7 @@ img {
 }
 
 .hero__descr {
-    font-family: var(--third-family);
+    font-family: var(--font-poppins);
     font-size: 16px;
     line-height: 180%;
     color: rgba(255, 255, 255, 0.6)
@@ -258,7 +258,7 @@ img {
 }
 
 .slider__more {
-    font-family: var(--second-family);
+    font-family: var(--font-montserrat);
     font-weight: 600;
     font-size: 14px;
     color: var(--second);
