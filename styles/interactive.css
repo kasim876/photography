@@ -1,0 +1,66 @@
+@media (any-hover: hover) {
+    .nav__link:hover {
+        color: var(--second);
+    }
+}
+
+@media (any-hover: hover) {
+    .btn:hover {
+        color: var(--light-text);
+        background-color: var(--second);
+    }
+}
+
+.logo:focus {
+    outline: none;
+}
+
+.logo:focus-visible {
+    outline: 2px solid var(--second);
+    outline-offset: 2px;
+}
+
+.nav__link:focus {
+    outline: none;
+}
+
+.nav__link:focus-visible {
+    outline: 2px solid var(--second);
+    outline-offset: 2px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:focus-visible {
+    outline: 2px solid var(--second);
+    outline-offset: 2px;
+}
+
+.slider__more:focus {
+    outline: none;
+}
+
+.slider__more:focus-visible {
+    outline: 2px solid var(--second);
+    outline-offset: 2px;
+}
+
+.slider__link:focus {
+    outline: none;
+}
+
+.slider__link:focus-visible {
+    outline: 2px solid var(--second);
+    outline-offset: 2px;
+}
+
+.slider__btn:focus {
+    outline: none;
+}
+
+.slider__btn:focus-visible {
+    outline: 2px solid var(--second);
+    outline-offset: 2px;
+}
