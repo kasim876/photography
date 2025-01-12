@@ -2,12 +2,18 @@
     .nav__link:hover {
         color: var(--second);
     }
-}
 
-@media (any-hover: hover) {
     .btn:hover {
         color: var(--light-text);
         background-color: var(--second);
+    }
+
+    .slider__btn:hover svg {
+        fill: var(--second);
+    }
+
+    .slider__more:hover {
+        text-decoration: underline;
     }
 }
 
