@@ -14,6 +14,10 @@
         display: none;
     }
 
+    .burger {
+        display: block;
+    }
+
     .hero {
         /* background-image: none; */
         /* background-position: left 20% bottom; */
@@ -78,7 +82,7 @@
 
     .hero__welcome {
         font-size: 16px;
-        
+
         span {
             font-size: 80px;
         }
