@@ -322,6 +322,12 @@ img {
     color: rgba(255, 255, 255, 0.6)
 }
 
+.slider {
+    overflow: hidden;
+    padding: 10px;
+    margin: -10px -10px -10px -10px;
+}
+
 .hero__slider {
     margin-top: 30px;
 }
@@ -354,9 +360,8 @@ img {
     display: flex;
     align-items: center;
     gap: 20px;
-    overflow: hidden;
-    padding: 10px;
-    margin: -10px -10px 10px -10px;
+    margin-bottom: 20px;
+    transition: transform 0.25s ease-in-out;
 }
 
 .slider__link {
